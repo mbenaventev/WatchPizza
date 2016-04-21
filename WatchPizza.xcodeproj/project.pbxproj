@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633C1C3B1CC85A270037515F /* cocinarInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633C1C3A1CC85A260037515F /* cocinarInterfaceController.swift */; };
+		636010871CC7D1F600AE659F /* quesoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636010861CC7D1F600AE659F /* quesoInterfaceController.swift */; };
+		636010891CC7E16C00AE659F /* ValorQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636010881CC7E16C00AE659F /* ValorQueso.swift */; };
+		6360108B1CC7EA0600AE659F /* ingredientesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360108A1CC7EA0600AE659F /* ingredientesInterfaceController.swift */; };
+		6360108D1CC7F1BF00AE659F /* ValorIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360108C1CC7F1BE00AE659F /* ValorIngredientes.swift */; };
+		6360108F1CC7F24A00AE659F /* confirmaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6360108E1CC7F24A00AE659F /* confirmaInterfaceController.swift */; };
+		636D1A811CC74BA600EDDD45 /* ValorMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D1A801CC74BA500EDDD45 /* ValorMasa.swift */; };
 		63895E161CC6A10D001CD074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63895E151CC6A10D001CD074 /* AppDelegate.swift */; };
 		63895E181CC6A10D001CD074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63895E171CC6A10D001CD074 /* ViewController.swift */; };
 		63895E1B1CC6A10D001CD074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63895E191CC6A10D001CD074 /* Main.storyboard */; };
@@ -19,6 +26,8 @@
 		63895E391CC6A10E001CD074 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63895E381CC6A10E001CD074 /* InterfaceController.swift */; };
 		63895E3B1CC6A10E001CD074 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63895E3A1CC6A10E001CD074 /* ExtensionDelegate.swift */; };
 		63895E3D1CC6A10E001CD074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63895E3C1CC6A10E001CD074 /* Assets.xcassets */; };
+		639D62541CC6B65300524256 /* ValorPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D62531CC6B65300524256 /* ValorPizza.swift */; };
+		639D62561CC6C19F00524256 /* masaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D62551CC6C19F00524256 /* masaInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +73,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		633C1C3A1CC85A260037515F /* cocinarInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cocinarInterfaceController.swift; sourceTree = "<group>"; };
+		636010861CC7D1F600AE659F /* quesoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quesoInterfaceController.swift; sourceTree = "<group>"; };
+		636010881CC7E16C00AE659F /* ValorQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValorQueso.swift; sourceTree = "<group>"; };
+		6360108A1CC7EA0600AE659F /* ingredientesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientesInterfaceController.swift; sourceTree = "<group>"; };
+		6360108C1CC7F1BE00AE659F /* ValorIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValorIngredientes.swift; sourceTree = "<group>"; };
+		6360108E1CC7F24A00AE659F /* confirmaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = confirmaInterfaceController.swift; sourceTree = "<group>"; };
+		636D1A801CC74BA500EDDD45 /* ValorMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValorMasa.swift; sourceTree = "<group>"; };
 		63895E121CC6A10D001CD074 /* WatchPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63895E151CC6A10D001CD074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63895E171CC6A10D001CD074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +96,8 @@
 		63895E3A1CC6A10E001CD074 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		63895E3C1CC6A10E001CD074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63895E3E1CC6A10E001CD074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639D62531CC6B65300524256 /* ValorPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValorPizza.swift; sourceTree = "<group>"; };
+		639D62551CC6C19F00524256 /* masaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = masaInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +168,15 @@
 				63895E3A1CC6A10E001CD074 /* ExtensionDelegate.swift */,
 				63895E3C1CC6A10E001CD074 /* Assets.xcassets */,
 				63895E3E1CC6A10E001CD074 /* Info.plist */,
+				639D62531CC6B65300524256 /* ValorPizza.swift */,
+				639D62551CC6C19F00524256 /* masaInterfaceController.swift */,
+				636D1A801CC74BA500EDDD45 /* ValorMasa.swift */,
+				636010861CC7D1F600AE659F /* quesoInterfaceController.swift */,
+				636010881CC7E16C00AE659F /* ValorQueso.swift */,
+				6360108A1CC7EA0600AE659F /* ingredientesInterfaceController.swift */,
+				6360108C1CC7F1BE00AE659F /* ValorIngredientes.swift */,
+				6360108E1CC7F24A00AE659F /* confirmaInterfaceController.swift */,
+				633C1C3A1CC85A260037515F /* cocinarInterfaceController.swift */,
 			);
 			path = "WatchPizza WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,8 +325,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6360108F1CC7F24A00AE659F /* confirmaInterfaceController.swift in Sources */,
+				639D62541CC6B65300524256 /* ValorPizza.swift in Sources */,
+				636010891CC7E16C00AE659F /* ValorQueso.swift in Sources */,
+				636D1A811CC74BA600EDDD45 /* ValorMasa.swift in Sources */,
+				633C1C3B1CC85A270037515F /* cocinarInterfaceController.swift in Sources */,
 				63895E3B1CC6A10E001CD074 /* ExtensionDelegate.swift in Sources */,
 				63895E391CC6A10E001CD074 /* InterfaceController.swift in Sources */,
+				639D62561CC6C19F00524256 /* masaInterfaceController.swift in Sources */,
+				6360108D1CC7F1BF00AE659F /* ValorIngredientes.swift in Sources */,
+				6360108B1CC7EA0600AE659F /* ingredientesInterfaceController.swift in Sources */,
+				636010871CC7D1F600AE659F /* quesoInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +566,7 @@
 				63895E431CC6A10E001CD074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63895E451CC6A10E001CD074 /* Build configuration list for PBXNativeTarget "WatchPizza WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +575,7 @@
 				63895E471CC6A10E001CD074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63895E491CC6A10E001CD074 /* Build configuration list for PBXNativeTarget "WatchPizza" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +584,7 @@
 				63895E4B1CC6A10E001CD074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
